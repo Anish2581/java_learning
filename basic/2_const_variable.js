@@ -5,7 +5,7 @@ accountdetail="visp"
 let accountstate//when we not assign any value in this variable it is initialize it by default value "undefined"
 console.log("accountid =",accontid," accountbalance =",accountbalance,"accountemail =",accountemail,"accountdetail =",accountdetail,"accountstate=",accountstate)
 
-accountid=3222;//its a const variable we can't change it 
+// accountid=3222;//its a const variable we can't change it 
 var accountbalance="111"
 accountemail="22@gmail.com"
 accountdetail="vvip"
