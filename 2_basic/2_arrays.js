@@ -41,5 +41,3 @@ store=newarr3.flat(Infinity)//layer of flat =2
  let score3=300 
 
  console.log(Array.of(score1,score2,score3))//Returns a new array from a set of elements.
-
- 
