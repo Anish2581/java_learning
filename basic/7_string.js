@@ -72,4 +72,4 @@ console.log("abc".charCodeAt(0))//97   //here we pass index of an specific chara
 
 
 
-console.log(String.fromCharCode(65))//A //ascii->characterf
+console.log(String.fromCharCode(65))//A //ascii->character

@@ -32,13 +32,13 @@
 let newarr1=[9,7,6,5,4]
 
 let carr=newarr1.slice(1,4)
-console.log("A  ",newarr1)//[9,7,6,5,4]
+// console.log("A  ",newarr1)//[9,7,6,5,4]
 
-console.log("B  ",carr)//[7,6,5,4]
+// console.log("B  ",carr)//[7,6,5]
 
-carr=newarr1.splice(1,3)//splice method will print a new array "including last index"
-//                        as well as it will eliminate or "remove the elements from the original array"
+// carr=newarr1.splice(1,3)//splice method will print a new array "including last index"
+// //                        as well as it will eliminate or "remove the elements from the original array"
 
-console.log("C  ",newarr1)//[9,7,6,5,4]
+// console.log("C  ",newarr1)//[9,4]
 
-console.log("D  ",carr)//[7,6,5]
+// console.log("D  ",carr)//[7,6,5]

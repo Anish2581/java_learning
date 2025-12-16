@@ -18,7 +18,7 @@ console.log(loggedIn())//when we pass no argument it will take parameter as "und
 console.log(loggedIn("Anish"))
 
 // function calculateCartPrice(...input){//"..." operator is rest/spread operator depend on use case , here "..." operators is rest operator
-//     return input//when we use "..." inside the function parameter it can take many variable and return it in arrary format
+//     return input//when we use "..." inside the function parameter it can take many variable and return it in array format
 // }
 // console.log(calculateCartPrice(3,4,5,6,4,3,2,))//[3, 4, 5, 6,4, 3, 2]
 
@@ -43,5 +43,5 @@ let array=[500,800,900]
 function returnSecondValue(anyArray){
     console.log(anyArray[1])
 }
-returnSecondValue(array)//output:-900
+returnSecondValue(array)//output:-800
 returnSecondValue([100])//when index is not found it will return "undefined" //output:-undefined
