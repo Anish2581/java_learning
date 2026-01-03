@@ -42,3 +42,9 @@ let carr=newarr1.slice(1,4)
 // console.log("C  ",newarr1)//[9,4]
 
 // console.log("D  ",carr)//[7,6,5]
+
+const name=["anish"]
+if (true){
+    name.push("akash")//push method can change the const variable
+}
+console.log(name)
