@@ -1,10 +1,10 @@
-// const num=400
-// console.log(num)
+const num=400
+console.log(num)
 
-// const newName= new Number(300)
-// console.log(newName)
+const newName= new Number(300)
+console.log(newName)
 
-// console.log(newName.toString())//300
+console.log(newName.toString())//"300"
 // console.log(newName)//immutable
 
 // console.log(newName.toFixed(2))//300.00

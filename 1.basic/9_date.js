@@ -7,11 +7,11 @@ console.log(typeof  mydate)//object
 
 
 // let myCreatedDate=new Date(2007,3,23)//month starts from "0" means 1->feb,2->mar;
-// // console.log(myCreatedDate.toDateString())//
-// // myCreatedDate=new Date(2007,3,23,5,77)
-// // console.log(myCreatedDate.toLocaleString())
-// // myCreatedDate=new Date("2007-4-23")//in this format month is started by "1" means 1->jan;
-// // console.log(myCreatedDate.toLocaleString())
+// console.log(myCreatedDate.toDateString())//Mon Apr 23 2007
+// myCreatedDate=new Date(2007,3,23,5,77)
+// console.log(myCreatedDate.toLocaleString())//23/4/2007, 6:17:00 am
+// myCreatedDate=new Date("2007-4-23")//in this format month is started by "1" means 1->jan;
+// console.log(myCreatedDate.toLocaleString())//23/4/2007, 12:00:00 am
 // myCreatedDate=new Date("4-23-2007")//we can also intialize in mm-dd-yyyy
 // // console.log(myCreatedDate.toLocaleString())
 

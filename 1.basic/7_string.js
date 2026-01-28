@@ -4,7 +4,7 @@
 // console.log(`Hey! i am ${name} and i am ${age} year old`)
 // name="     Anish       "
 // console.log(name)
-// console.log(name.trim())
+// console.log(name.trim())//remove only whitespace mean we connot allowed to pass any argument in "trim" method like "split" method
 // console.log(name)//string is immutable
 // console.log(name.trimStart())
 // console.log(name.trimEnd())
@@ -25,7 +25,7 @@
 
 // //.include(),.startsWith(),.endsWith()
 
-// console.log("javascript".includes("Script"))//true //otherwise false and it is case sensitive
+// console.log("javascript".includes("Script"))//false //otherwise false and it is case sensitive
 // console.log("hello world".startsWith("hello"))//true //otherwise false and it is case sensitive
 // console.log("hello world".endsWith("world"))//true //otherwise false and it is case sensitive
 
@@ -54,6 +54,11 @@ console.log("anish Gupta".replace("anish","Akash"))//Akash Gupta
 
 console.log("aa bb cc aa".replace("aa","ee"))//ee bb cc aa  ; change only fristone
 console.log("aa bb cc aa".replaceAll("aa","ee"))//ee bb cc ee  ; change all similar string
+
+let str="anish gupta"
+console.log(str)//anish gupta
+str.replace("anish","akash")
+console.log(str)//anish gupta
 
 //.split()
 
